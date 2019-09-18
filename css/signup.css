@@ -9,6 +9,7 @@ body{
     height: 1024px;
     background: #FFFFFF;
 }
+
 #logo{
     position: absolute;
     width: 217px;
@@ -16,6 +17,7 @@ body{
     left: 138px;
     top: 37px;
 }
+
 .wel-pics{
     position: absolute;
     width: 707px;
@@ -23,51 +25,62 @@ body{
     left: 5px;
     top: 258.02px;
 }
+
 h2{
     position: absolute;
     width: 464px;
     height: 75px;
-    left: 735px;
+    left: 742px;
     top: 135px;
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 132%;
     text-align: center;
-    color: #484747;
+    color: #585B8A;
 }
 
 #par1{
     position: absolute;
-    width: 457px;
+    width: 464px;
     height: 75px;
     left: 742px;
     top: 209px;
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 132%;
-    color: #484747;
+    color: #585B8A;
 }
+
 #par2{
     position: absolute;
     width: 299px;
     height: 21px;
     left: 742px;
     top: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #585B8A;
 }
+
+a{
+    text-decoration: none;
+    color: #6C63FF;
+}
+
 label{
     width: 102px;
     height: 21px;
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 132%;
-    color: #858484;
+    color: #454B69;
 }
+
 input{
     width: 258px;
     height: 55px;
@@ -77,50 +90,62 @@ input{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
+
 label[for="fname"]{
     position: absolute;
     left: 742px;
     top: 386px;
 }
+
 input[name="fname"]{
     position: absolute;
     left: 742px;
     top: 421px;
 }
+
 label[for="lname"]{
     position: absolute;
     left: 1042px;
     top: 386px;
 }
+
 input[name="lname"]{
     position: absolute;
     left: 1042px;
     top: 421px;
 }
+
 label[for="uname"]{
     position: absolute;
     left: 742px;
     top: 508px;
 }
+
 input[name="uname"]{
     position: absolute;
     left: 742px;
     top: 543px;
 }
+
 label[for="emai"]{
     position: absolute;
     left: 1042px;
-    top: 508px;    
+    top: 508px;
+    width: 258px;
+    height: 55px;
 }
+
 input[name="emai"]{
     position: absolute;
     left: 1042px;
     top: 543px;
 }
+
 label[for="psword"]{
     position: absolute;
     left: 742px;
     top: 630px;
+
 }
 input[name="psword"]{
     position: absolute;
@@ -129,6 +154,7 @@ input[name="psword"]{
     left: 742px;
     top: 665px;
 }
+
 label[for="cpsword"]{
     position: absolute;
     left: 1042px;
@@ -136,19 +162,22 @@ label[for="cpsword"]{
     width: 258px;
     height: 55px;
 }
+
 input[name="cpsword"]{
     position: absolute;
     left: 1042px;
     top: 665px;
 }
+
 input[type="checkbox"]{
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 132%;
     color: #858484;
 }
+
 #rec-email{
     position: absolute;
     width: 23px;
@@ -156,13 +185,17 @@ input[type="checkbox"]{
     left: 742px;
     top: 744px;
 }
+
 #receivemail{
     position: absolute;
     width: 342px;
     height: 21px;
     left: 770px;
     top: 746px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
+
 #terms{
     position: absolute;
     width: 24.18px;
@@ -170,16 +203,17 @@ input[type="checkbox"]{
     left: 743px;
     top: 782px;
 }
+
 #term{
     position: absolute;
     width: 359.56px;
     height: 21px;
     left: 772.44px;
     top: 784px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
-a{
-    text-decoration: none;
-}
+
 button{
     position: absolute;
     width: 170px;
@@ -191,214 +225,10 @@ button{
     background: #ffffff;
     font-size: 16px;
     line-height: 132%;
+    border-radius: 4px;
 }
+
 button:hover{
     background: #585B8A;
     color: #ffffff;
-}
-
-@media (max-width: 767px) {
-    .wel-pics{
-    display: none;
-    }
-  #logo{
-    position: absolute;
-    width: 132px;
-    height: 25.55px;
-    left: 16px;
-    top: 17px;    
-  }
-  h2{
-    position: absolute;
-    width: 232px;
-    height: 30px;
-    left: 64px;
-    top: 80px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 132%;
-    text-align: center;
-    color: #484747;
-  }
-  #par1{
-    position: absolute;
-    width: 300px;
-    height: 49px;
-    left: 30px;
-    top: 126px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 132%;
-    text-align: center;
-    color: #484747;
-  }
-  #par2{
-    position: absolute;
-    width: 233px;
-    height: 21px;
-    left: 63px;
-    top: 201px;    
-  }
-  label{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 132%;
-    color: #858484;
-  }
-  input{
-    background: #FFFFFF;
-    border: 0.5px solid #C4C4C4;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-  }
-
-  label[for="fname"]{
-    position: absolute;
-    left: 6.39%;
-    right: 73%;
-    top: 25.99%;
-    bottom: 72.03%;
-    }
-    input[name="fname"]{
-    position: absolute;
-    left: 6.39%;
-    right: 6.39%;
-    top: 27.97%;
-    bottom: 67.62%;
-    }
-    label[for="lname"]{
-        position: absolute;
-        left: 6.39%;
-        right: 73.33%;
-        top: 34.8%;
-        bottom: 63.22%;
-    }
-    input[name="lname"]{
-        position: absolute;
-        left: 6.39%;
-        right: 6.39%;
-        top: 36.78%;
-        bottom: 58.81%;
-    }
-    label[for="uname"]{
-        position: absolute;
-        left: 6.39%;
-        right: 73.33%;
-        top: 43.61%;
-        bottom: 54.41%;
-    }
-    input[name="uname"]{
-        position: absolute;
-        left: 6.39%;
-        right: 6.39%;
-        top: 45.59%;
-        bottom: 50%;
-    }
-    label[for="emai"]{
-        position: absolute;
-        left: 6.39%;
-        right: 68.33%;
-        top: 52.42%;
-        bottom: 45.59%;  
-    }
-    input[name="emai"]{
-        position: absolute;
-        left: 6.39%;
-        right: 6.39%;
-        top: 54.41%;
-        bottom: 41.19%;
-    }
-    label[for="psword"]{
-        position: absolute;
-        left: 6.39%;
-        right: 68.33%;
-        top: 61.23%;
-        bottom: 36.78%;
-
-    }
-    input[name="psword"]{
-        position: absolute;
-        left: 6.39%;
-        right: 6.39%;
-        top: 63.22%;
-        bottom: 32.38%;
-    }
-    label[for="cpsword"]{
-        position: absolute;
-        left: 6.39%;
-        right: 63.06%;
-        top: 70.04%;
-        bottom: 27.97%;        
-    }
-    input[name="cpsword"]{
-        position: absolute;
-        left: 6.39%;
-        right: 6.39%;
-        top: 72.03%;
-        bottom: 23.57%;
-    }
-    input[type="checkbox"]{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 132%;
-    color: #858484;
-    }
-    #rec-email{
-        position: absolute;
-        left: 8.33%;
-        right: 86.11%;
-        top: 79.63%;
-        bottom: 18.17%;
-    }
-    #receivemail{
-        position: absolute;
-        left: 10%;
-        right: 8.33%;
-        top: 79.85%;
-        bottom: 17.84%;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 132%;
-        color: #858484;
-    }
-    #terms{
-        position: absolute;
-        left: 8.33%;
-        right: 86.11%;
-        top: 84.25%;
-        bottom: 13.55%;
-    }
-    #term{
-        position: absolute;
-        left: 10%;
-        right: 6.39%;
-        top: 84.47%;
-        bottom: 13.22%;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 132%;
-        color: #858484;
-    }
-    button{
-        position: absolute;
-        width: 170px;
-        height: 44px;
-        left: 8.6%;
-        right: 85.84%;
-        top: 90%;
-        bottom: 8.5%
-    }
 }
